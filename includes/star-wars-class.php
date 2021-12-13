@@ -1,5 +1,5 @@
 <?php
-
+/*
 for ($nr=1;$nr<=4;$nr++){
     if ($nr==1){
         $url="https://swapi.dev/api/starships/";
@@ -8,7 +8,7 @@ for ($nr=1;$nr<=4;$nr++){
         $url="https://swapi.dev/api/starships/$nr";}
         echo $url;
 }
-
+*/
 class Star_Wars_Widget extends WP_Widget {
 
 
