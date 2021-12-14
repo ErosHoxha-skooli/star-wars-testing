@@ -17,7 +17,7 @@ class Star_Wars_Widget extends WP_Widget
         if (!empty($instance['title'])) {
             echo $args['before_title'] . apply_filters('widget_title', $instance['title']) . $args['after_title'];
         }
-        //WIDGET CONTENT OUTPUT .
+        //WIDGET CONTENT OUTPUT.
         display_dropdown(); 
     }
 
